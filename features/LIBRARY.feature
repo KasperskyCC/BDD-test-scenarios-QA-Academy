@@ -36,7 +36,7 @@ Feature: LIBRARY
   Scenario: Sort alphabetically on loans ascending
     Given We are logged in and we are in the LIBRARY section
     When Click on the drop-down list next to SORT BY and select Rented ascending
-    Then the books in the table have been sorted in ascending order by rented
+    Then The books in the table have been sorted in ascending order by rented
 
   Scenario: Display 5 lines per page
     Given We are logged in and we are in the LIBRARY section
@@ -61,7 +61,7 @@ Feature: LIBRARY
   Scenario: Sorting alphabetically by title in ascending order
     Given We are logged in and we are in the LIBRARY section
     When Click on the drop-down list next to SORT BY and select Title ascending
-    Then the books in the table have been sorted alphabetically by titles in ascending order
+    Then The books in the table have been sorted alphabetically by titles in ascending order
 
   Scenario: Sort alphabetically by title in descending order
     Given We are logged in and we are in the LIBRARY section
